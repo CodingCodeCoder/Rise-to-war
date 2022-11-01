@@ -1,0 +1,1036 @@
+units:[
+    {
+    id:"100",
+    name:"Hunter",
+    tier:"I",
+    unlocked:"Hunter Range",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"swiftness",
+        effect:[{
+            level:1,
+            effect: "46% chance to Evade 1 Attack",
+            per_level:"+4%"
+        }]
+    }],
+    race:"Elves",
+    stats:{
+        per_command:100,
+        damage:"15-16",
+        hp:18,
+        defence:5,
+        speed:86,
+        siege:7,
+        conscription_per_command:{
+            wood:2100,
+            ore:1700,
+            grain:1800,
+            build_time_in_min:12
+        }
+    }
+},{
+    id:"101",
+    name:"Marksman",
+    tier:"II",
+    unlocked:"Hunter Range",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"swiftness",
+        effect:{
+            level:1,
+            effect: "46% chance to Evade 1 Attack",
+            per_level:"+4%"
+        }
+    }],
+    race:"Elves",
+    stats:{
+        per_command:100,
+        damage:"23-24",
+        hp:24,
+        defence:9,
+        speed:79,
+        siege:10,
+        conscription_per_command:{
+            wood:2900,
+            ore:2300,
+            grain:2300,
+            build_time_in_min:16
+        }
+    }
+},{
+    id:"102",
+    name:"Sentinel",
+    tier:"III",
+    unlocked:"Hunter Range",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"swiftness",
+        effect:{
+            level:1,
+            effect: "46% chance to Evade 1 Attack",
+            per_level:"+4%"
+        }
+    }],
+    race:"Elves",
+    stats:{
+        per_command:100,
+        damage:"28-29",
+        hp:28,
+        defence:14,
+        speed:79,
+        siege:12,
+        conscription_per_command:{
+            wood:3900,
+            ore:3400,
+            grain:3500,
+            build_time_in_min:22
+        }
+    }
+},{
+    id:"103",
+    name:"Horseback Archer",
+    tier:"I",
+    unlocked:"Horseback Archer Stable",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "Damage received -1%",
+            per_level:"-1%"
+        }
+    }],
+    race:"Elves",
+    stats:{
+        per_command:50,
+        damage:"21-23",
+        hp:56,
+        defence:16,
+        speed:127,
+        siege:12,
+        conscription_per_command:{
+            wood:2700,
+            ore:1500,
+            grain:3300,
+            build_time_in_min:17
+        }
+    }
+},{
+    id:"104",
+    name:"Cavalry Archer",
+    tier:"II",
+    unlocked:"Horseback Archer Stable",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "Damage received -1%",
+            per_level:"-1%"
+        }
+    },{
+        id:2,
+        name:"Giant Slayer",
+        effect:{
+            level:1,
+            effect: "Against Large Unit Damage +5%",
+            per_level:"+5%"
+        }
+    },],
+    race:"Elves",
+    stats:{
+        per_command:50,
+        damage:"32-36",
+        hp:68,
+        defence:22,
+        speed:127,
+        siege:14,
+        conscription_per_command:{
+            wood:4050,
+            ore:2600,
+            grain:4550,
+            build_time_in_min:26
+        }
+    }
+},{
+    id:"105",
+    name:"Bow Knight",
+    tier:"III",
+    unlocked:"Horseback Archer Stable",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "Damage received -1%",
+            per_level:"-1%"
+        }
+    }],
+    race:"Elves",
+    stats:{
+        per_command:50,
+        damage:"21-23",
+        hp:56,
+        defence:16,
+        speed:127,
+        siege:16,
+        conscription_per_command:{
+            wood:2700,
+            ore:1500,
+            grain:3300,
+            build_time_in_min:17
+        }
+    }
+},{
+    id:"106",
+    name:"Warden",
+    tier:"II",
+    unlocked:"Warden Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Counterattack",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    }],
+    race:"Elves",
+    stats:{
+        per_command:100,
+        damage:"12-24",
+        hp:28,
+        defence:50,
+        speed:80,
+        siege:15,
+        conscription_per_command:{
+            wood:2300,
+            ore:2500,
+            grain:2700,
+            build_time_in_min:17
+        }
+    }
+},{
+    id:"107",
+    name:"Herald",
+    tier:"III",
+    unlocked:"Warden Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Counterattack",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    }],
+    race:"Elves",
+    stats:{
+        per_command:100,
+        damage:"15-26",
+        hp:36,
+        defence:71,
+        speed:60,
+        siege:18,
+        conscription_per_command:{
+            wood:3400,
+            ore:3400,
+            grain:4000,
+            build_time_in_min:21
+        }
+    }
+},{
+    id:"108",
+    name:"Marchwarden",
+    tier:"IV",
+    unlocked:"Marchwarden Training Grounds",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Keen Eye",
+        effect:{
+            level:1,
+            effect: "Each Round 37% chance to gain Pursuit.(Ignores the target's Evasion.)",
+            per_level:"+7%"
+        }
+    },{
+        id:2,
+        name:"Indomitable",
+        effect:{
+            level:1,
+            effect: "Unaffected by Stun. Defense +2.",
+            per_level:"+2"
+        }
+    }],
+    race:"Elves",
+    stats:{
+        per_command:50,
+        damage:"59-60",
+        hp:66,
+        defence:41,
+        speed:99,
+        siege:17,
+        conscription_per_command:{
+            wood:7500,
+            ore:6300,
+            grain:6000,
+            build_time_in_min:34
+        }
+    }
+},{
+    id:"109",
+    name:"Light Cavalry",
+    tier:"I",
+    unlocked:"Light Cavalry Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:50,
+        damage:"18-25",
+        hp:62,
+        defence:15,
+        speed:139,
+        siege:15,
+        conscription_per_command:{
+            wood:1800,
+            ore:2100,
+            grain:3600,
+            build_time_in_min:17
+        }
+    }
+},{
+    id:"110",
+    name:"Outrider",
+    tier:"II",
+    unlocked:"Light Cavalry Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    },{
+        id:2,
+        name:"Rohirrim Charge",
+        effect:{
+            level:1,
+            effect: "First 1 instance(s) of damage dealt in battle +5%",
+            per_level:"5%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:50,
+        damage:"26-37",
+        hp:76,
+        defence:20,
+        speed:139,
+        siege:19,
+        conscription_per_command:{
+            wood:2600,
+            ore:3400,
+            grain:5200,
+            build_time_in_min:25
+        }
+    }
+},{
+    id:"111",
+    name:"Cavalier",
+    tier:"II",
+    unlocked:"Light Cavalry Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    },{
+        id:2,
+        name:"Rohirrim Charge",
+        effect:{
+            level:1,
+            effect: "First 1 instance(s) of damage dealt in battle +5%",
+            per_level:"5%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:50,
+        damage:"34-42",
+        hp:82,
+        defence:34,
+        speed:139,
+        siege:22,
+        conscription_per_command:{
+            wood:4550,
+            ore:5400,
+            grain:7300,
+            build_time_in_min:33
+        }
+    }
+},{
+    id:"112",
+    name:"Bowman",
+    tier:"I",
+    unlocked:"Bowman Range",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Ranged Advantage",
+        effect:{
+            level:1,
+            effect: "First 2 Rounds Damage dealt +4%.",
+            per_level:"+4%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:50,
+        damage:"9-15",
+        hp:20,
+        defence:9,
+        speed:80,
+        siege:6,
+        conscription_per_command:{
+            wood:2100,
+            ore:1400,
+            grain:2100,
+            build_time_in_min:12
+        }
+    }
+},{
+    id:"113",
+    name:"Longbowman",
+    tier:"II",
+    unlocked:"Bowman Range",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Ranged Advantage",
+        effect:{
+            level:1,
+            effect: "First 2 Rounds Damage dealt +4%.",
+            per_level:"+4%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:100,
+        damage:"12-20",
+        hp:26,
+        defence:13,
+        speed:72,
+        siege:9,
+        conscription_per_command:{
+            wood:2700,
+            ore:1900,
+            grain:2900,
+            build_time_in_min:17
+        }
+    }
+},{
+    id:"114",
+    name:"Sharpshooter",
+    tier:"III",
+    unlocked:"Bowman Range",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Ranged Advantage",
+        effect:{
+            level:1,
+            effect: "First 2 Rounds Damage dealt +4%.",
+            per_level:"+4%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:100,
+        damage:"18-26",
+        hp:32,
+        defence:19,
+        speed:64,
+        siege:11,
+        conscription_per_command:{
+            wood:3800,
+            ore:3000,
+            grain:4000,
+            build_time_in_min:21
+        }
+    }
+},{
+    id:"115",
+    name:"Ranger",
+    tier:"II",
+    unlocked:"Ranger Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Bullseye",
+        effect:{
+            level:1,
+            effect: "Against Ranged Enemy Targets Damage +3%, prioritises ranged targets.",
+            per_level:"+3%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:100,
+        damage:"14-20",
+        hp:30,
+        defence:29,
+        speed:100,
+        siege:12,
+        conscription_per_command:{
+            wood:2500,
+            ore:2900,
+            grain:4000,
+            build_time_in_min:21
+        }
+    }
+},{
+    id:"116",
+    name:"Dunedain",
+    tier:"III",
+    unlocked:"Ranger Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Bullseye",
+        effect:{
+            level:1,
+            effect: "Against Ranged Enemy Targets Damage +3%, prioritises ranged targets.",
+            per_level:"+3%"
+        }
+    },{
+        id:2,
+        name:"Gracefulness",
+        effect:{
+            level:1,
+            effect: "Damage received from Ranged Units -3%",
+            per_level:"3%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:100,
+        damage:"15-22",
+        hp:36,
+        defence:44,
+        speed:122,
+        siege:15,
+        conscription_per_command:{
+            wood:3900,
+            ore:4200,
+            grain:4800,
+            build_time_in_min:25
+        }
+    }
+},{
+    id:"117",
+    name:"Militia",
+    tier:"I",
+    unlocked:"Militia Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Shielding",
+        effect:{
+            level:1,
+            effect: "50% chance for Physical Damage received -2%",
+            per_level:"+2%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:100,
+        damage:"8-13",
+        hp:24,
+        defence:24,
+        speed:89,
+        siege:16,
+        conscription_per_command:{
+            wood:1400,
+            ore:1800,
+            grain:2400,
+            build_time_in_min:13
+        }
+    }
+},{
+    id:"118",
+    name:"Spearman",
+    tier:"II",
+    unlocked:"Militia Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Anti-Cavalry Training",
+        effect:{
+            level:1,
+            effect: "Against Mounted Units Damage +3% and damage received -2%.",
+            per_level:"+3% and -2%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:100,
+        damage:"11-15",
+        hp:32,
+        defence:51,
+        speed:65,
+        siege:17,
+        conscription_per_command:{
+            wood:1900,
+            ore:2400,
+            grain:3200,
+            build_time_in_min:16
+        }
+    }
+},{
+    id:"119",
+    name:"Guard of the Tower",
+    tier:"III",
+    unlocked:"Militia Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Anti-Cavalry Training",
+        effect:{
+            level:1,
+            effect: "Against Mounted Units Damage +3% and damage received -2%.",
+            per_level:"+3% and -2%"
+        }
+    },{
+        id:2,
+        name:"Shielding",
+        effect:{
+            level:1,
+            effect: "50% chance for Physical Damage received -2%",
+            per_level:"+2%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:100,
+        damage:"12-15",
+        hp:40,
+        defence:78,
+        speed:59,
+        siege:18,
+        conscription_per_command:{
+            wood:2800,
+            ore:3600,
+            grain:4400,
+            build_time_in_min:21
+        }
+    }
+},{
+    id:"120",
+    name:"Horseman",
+    tier:"I",
+    unlocked:"Horse Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:50,
+        damage:"15-23",
+        hp:65,
+        defence:30,
+        speed:132,
+        siege:20,
+        conscription_per_command:{
+            wood:1400,
+            ore:2700,
+            grain:3400,
+            build_time_in_min:16
+        }
+    }
+},{
+    id:"121",
+    name:"Knight",
+    tier:"II",
+    unlocked:"Horse Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    },{
+        id:2,
+        name:"Full Protection",
+        effect:{
+            level:1,
+            effect: "Damage received from enemy Melee Units -1.5%.",
+            per_level:"+1.5%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:50,
+        damage:"22-30",
+        hp:82,
+        defence:37,
+        speed:122,
+        siege:22,
+        conscription_per_command:{
+            wood:2050,
+            ore:4350,
+            grain:4800,
+            build_time_in_min:25
+        }
+    }
+},{
+    id:"122",
+    name:"Cataphract",
+    tier:"III",
+    unlocked:"Horse Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    },{
+        id:2,
+        name:"Full Protection",
+        effect:{
+            level:1,
+            effect: "Damage received from enemy Melee Units -1.5%.",
+            per_level:"+1.5%"
+        }
+    }],
+    race:"Men",
+    stats:{
+        per_command:50,
+        damage:"26-35",
+        hp:94,
+        defence:61,
+        speed:110,
+        siege:23,
+        conscription_per_command:{
+            wood:3900,
+            ore:5550,
+            grain:7800,
+            build_time_in_min:34
+        }
+    }
+},{
+    id:"123",
+    name:"Dwarven Footman",
+    tier:"I",
+    unlocked:"Dwarven Footman Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Laceration",
+        effect:{
+            level:1,
+            effect: "Inflicts an additional 2% Physical Damage (Continuous) for 1 round(s).",
+            per_level:"+2%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"8-11",
+        hp:26,
+        defence:18,
+        speed:86,
+        siege:18,
+        conscription_per_command:{
+            wood:1100,
+            ore:2100,
+            grain:2400,
+            build_time_in_min:12
+        }
+    }
+},{
+    id:"124",
+    name:"Shieldbearer",
+    tier:"II",
+    unlocked:"Dwarven Footman Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Laceration",
+        effect:{
+            level:1,
+            effect: "Inflicts an additional 2% Physical Damage (Continuous) for 1 round(s).",
+            per_level:"+2%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"6-18",
+        hp:36,
+        defence:60,
+        speed:70,
+        siege:19,
+        conscription_per_command:{
+            wood:1400,
+            ore:2900,
+            grain:3200,
+            build_time_in_min:16
+        }
+    }
+},{
+    id:"125",
+    name:"Guardian",
+    tier:"III",
+    unlocked:"Dwarven Footman Training Grounds",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Shielding",
+        effect:{
+            level:1,
+            effect: "50% chance for Physical Damage received -2%",
+            per_level:"+2%"
+        }
+    },{
+        id:2,
+        name:"Laceration",
+        effect:{
+            level:1,
+            effect: "Inflicts an additional 2% Physical Damage (Continuous) for 1 round(s).",
+            per_level:"+2%"
+        }
+    },{
+        id:3,
+        name:"Heatproof Skin",
+        effect:{
+            level:1,
+            effect: "Burn Damage received -2%.",
+            per_level:"+2%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"7-20",
+        hp:40,
+        defence:101,
+        speed:52,
+        siege:20,
+        conscription_per_command:{
+            wood:2800,
+            ore:4000,
+            grain:4000,
+            build_time_in_min:21
+        }
+    }
+},{
+    id:"126",
+    name:"Axe Thrower",
+    tier:"I",
+    unlocked:"Dwarven Footman Training Grounds",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Battlers' Bane",
+        effect:{
+            level:1,
+            effect: "Against Melee Units Damage +2%",
+            per_level:"+2%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"5-17",
+        hp:22,
+        defence:15,
+        speed:77,
+        siege:8,
+        conscription_per_command:{
+            wood:1700,
+            ore:1800,
+            grain:2100,
+            build_time_in_min:12
+        }
+    }
+},{
+    id:"127",
+    name:"Heavy Axe Thrower",
+    tier:"II",
+    unlocked:"Dwarven Footman Training Grounds",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Battlers' Bane",
+        effect:{
+            level:1,
+            effect: "Against Melee Units Damage +2%",
+            per_level:"+2%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"7-24",
+        hp:28,
+        defence:25,
+        speed:68,
+        siege:12,
+        conscription_per_command:{
+            wood:2300,
+            ore:2500,
+            grain:2700,
+            build_time_in_min:16
+        }
+    }
+},{
+    id:"128",
+    name:"Master Thrower",
+    tier:"III",
+    unlocked:"Dwarven Footman Training Grounds",
+    attack_type:"Ranged",
+    skills:[{
+        id:1,
+        name:"Battlers' Bane",
+        effect:{
+            level:1,
+            effect: "Against Melee Units Damage +2%",
+            per_level:"+2%"
+        }
+    },{
+        id:2,
+        name:"Giant Slayer",
+        effect:{
+            level:1,
+            effect: "Against Large Units Damage +5%",
+            per_level:"+5%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"9-29",
+        hp:32,
+        defence:32,
+        speed:55,
+        siege:16,
+        conscription_per_command:{
+            wood:3400,
+            ore:3500,
+            grain:3900,
+            build_time_in_min:21
+        }
+    }
+},{
+    id:"129",
+    name:"Goat Riger",
+    tier:"II",
+    unlocked:"Goat Rider Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"24-28",
+        hp:82,
+        defence:33,
+        speed:96,
+        siege:23,
+        conscription_per_command:{
+            wood:1400,
+            ore:3100,
+            grain:4850,
+            build_time_in_min:21
+        }
+    }
+},{
+    id:"130",
+    name:"Ram Rider",
+    tier:"III",
+    unlocked:"Goat Rider Stable",
+    attack_type:"Melee",
+    skills:[{
+        id:1,
+        name:"Mounted",
+        effect:{
+            level:1,
+            effect: "When hit by enemies' normal attacks within range,perform a Counterattack that deals 16,5% damage. Normal attack damage -10%.",
+            per_level:"+1.5%"
+        }
+    },{
+        id:2,
+        name:"Trample",
+        effect:{
+            level:1,
+            effect: "On Hit Enemy Target Defence -5% for 1 round(s).",
+            per_level:"+5%"
+        }
+    },{
+        id:3,
+        name:"Heatproof Skin",
+        effect:{
+            level:1,
+            effect: "Burn Damage received -2%.",
+            per_level:"+2%"
+        }
+    }],
+    race:"Dwarves",
+    stats:{
+        per_command:100,
+        damage:"28-32",
+        hp:90,
+        defence:40,
+        speed:102,
+        siege:27,
+        conscription_per_command:{
+            wood:2800,
+            ore:4500,
+            grain:5650,
+            build_time_in_min:25
+        }
+    }
+}]}

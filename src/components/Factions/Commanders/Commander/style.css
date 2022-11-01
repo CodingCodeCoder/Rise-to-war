@@ -1,0 +1,16 @@
+.commander-list, .stats{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.commander-card table{
+    width: 100%;
+}
+
+.one-third { width: 33%;}
+.one-fourth { width:25%;}
+.one-fifth { width:20%;}
+
+.stats-tr {
+    width: 100%;
+}
